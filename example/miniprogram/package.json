@@ -1,0 +1,26 @@
+{
+  "name": "miniprogram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prebuild":"cdp",
+    "prebuild:dev":"node ../../index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.7"
+  },
+  "config": {
+    "miniprogram-dayjs-copy": {
+      "esm": true,
+      "plugins": [
+        "plugin/advancedFormat",
+        "locale/zh",
+        "locale/en"
+      ]
+    }
+  }
+}

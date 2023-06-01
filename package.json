@@ -1,0 +1,42 @@
+{
+  "name": "miniprogram-dayjs-copy",
+  "version": "1.0.0",
+  "description": "按需引入dayjs插件",
+  "main": "index.js",
+  "files": [
+    "docs",
+    "index.js"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "semantic-release":"semantic-release"
+  },
+  "bin": {
+    "cdp": "index.js"
+  },
+  "keywords": [
+    "dayjs",
+    "miniprogram"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lzjyzq2/miniprogram-dayjs-copy.git"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-angular": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "cz-git": "^1.6.1",
+    "husky": "^8.0.3",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "author": "lzjyzq2",
+  "license": "MIT"
+}
