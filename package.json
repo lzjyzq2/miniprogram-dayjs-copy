@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "semantic-release":"semantic-release"
+    "semantic-release": "semantic-release"
   },
   "bin": {
     "cdp": "index.js"
